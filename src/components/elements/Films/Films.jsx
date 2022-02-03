@@ -6,7 +6,7 @@ import eternals from '../../../images/eternals.jpeg';
 import infinityWar from '../../../images/infinityWar.jpeg';
 import 'swiper/css'
 
-const Films = ({DATA,movie}) => {
+const Films = () => {
 	return (
 		<div>
 			<h1 className = {styles.title}>Films from marvel</h1>

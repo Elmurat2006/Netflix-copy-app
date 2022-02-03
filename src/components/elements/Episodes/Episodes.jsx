@@ -8,11 +8,6 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 
-// import ShangChi from '../../../images/ShangChi.jpeg';
-// import blackWidow from '../../../images/blackWidow.jpeg';
-// import eternals from '../../../images/eternals.jpeg';
-// import infinityWar from '../../../images/infinityWar.jpeg';
-
 const Episodes = () => {
 	return (
 		<div>
@@ -41,27 +36,3 @@ const Episodes = () => {
 }
 
 export default Episodes
-
-
-
-
-
-
-
-// export default function App() {
-//   return (
-//     <>
-//       <Swiper navigation={true} modules={[Navigation]} >
-//         <SwiperSlide>Slide 1</SwiperSlide>
-//         <SwiperSlide>Slide 2</SwiperSlide>
-//         <SwiperSlide>Slide 3</SwiperSlide>
-//         <SwiperSlide>Slide 4</SwiperSlide>
-//         <SwiperSlide>Slide 5</SwiperSlide>
-//         <SwiperSlide>Slide 6</SwiperSlide>
-//         <SwiperSlide>Slide 7</SwiperSlide>
-//         <SwiperSlide>Slide 8</SwiperSlide>
-//         <SwiperSlide>Slide 9</SwiperSlide>
-//       </Swiper>
-//     </>
-//   );
-// }
