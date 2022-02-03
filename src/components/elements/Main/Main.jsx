@@ -3,6 +3,7 @@ import { DATA } from '../../../data'
 import BottomNavigation from '../../UI/BottomNavigation/BottomNavigation'
 import Sidebar from '../../UI/Sidebar/Sidebar'
 import Episodes from '../Episodes/Episodes'
+import Films from '../Films/Films'
 import Information from './Information'
 import Modal from '../Modal/Modal'
 import styles from './Main.module.scss'
@@ -29,7 +30,9 @@ const Main = () => {
 					<Information movie={DATA[0]} />
 				) : (
 					activeTab === 2 && <Episodes />
-				)}
+					)}:{(
+					activeTab === 3 && <Films />
+					)}
 			</div>
 			<BottomNavigation activeTab={activeTab} setActiveTab={setActiveTab} />
 		</div>
